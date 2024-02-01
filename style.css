@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;800&family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800;1000&family=Rubik:wght@300;800&display=swap');
+body, *{
+    margin: 0;
+    padding: 0px;
+    padding-left: 8px;
+    padding-right: 8px;
+    box-sizing: border-box;
+    background: black;
+    container: fluid;
+    margin: 10px 0 10px 0;
+}
+
+.logo img{
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    padding-left: 30px;
+}
+
+h1 {
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(75, 75, 231);
+    font-size: 75px;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+h2 {
+    font-size: 40px;
+    color:rgb(152, 152, 245);
+    display: flex;
+    text-align:center;
+    flex-direction: column;
+    margin-top: 0px;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Tilt Neon', sans-serif;
+}
+
+p {
+    font-size: 30px;
+    color: white;
+    text-align: justify;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+.conoce {
+    display: flex;
+    justify-content: space-evenly
+    }
+
+.conoce img {
+    background-size: center;
+    background-position: center;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    border-radius: 20%; 
+    background-position: center center;
+    margin: 60px;
+}
+
+.conocetexto h2 {
+    margin-top: 150px;
+}
+
+.conocetexto p {
+    font-size: 30px;
+    text-align: justify;
+    padding-left: 0px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.nuestraprioridad h2 {
+    margin-top: 50px;
+    font-size: 35px;
+    color:rgb(247, 155, 224);
+}
+
+.nuestraprioridad p {
+    font-size: 25px;
+    text-align: justify;
+    padding-left: 0px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.nuestraprioridad img {
+    background-size: center;
+    background-position: center;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    border-radius: 20%; 
+    background-position: center center;
+    margin: 60px;
+    float: right;
+}
+
+
+
+
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+}
+
+.caja {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caja img{
+    width: 80%;
+}
+
+.caja h2{
+    font-size: 25px;
+    text-align:center;
+    color: rgb(255, 255, 255);
+}
+
+.caja p{
+    font-size: 20px;
+    color: white;
+}
+
+
+
+.disponible h2 {
+    margin-top: 100px;
+    font-size: 35px;
+    text-align:center;
+    flex-direction: column;
+    color:rgb(243, 171, 64);
+}
+
+.disponible p {
+    font-size: 25px;
+    text-align:center;
+}
+
+
+iframe {
+    display: flex;
+    height: 700px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.prioridades h2{
+    margin-top: 100px;
+    padding-top: 100px;
+    font-size: 35px;
+    text-align:center;
+    flex-direction: column;
+    color:rgb(255, 60, 93);
+}
+
+.prioridades p{
+    font-size: 20px;
+}
+
+.prioridades img {
+    background-size: center;
+    background-position: center;
+    width: 500px;
+    display: flex;
+    float: left;
+    align-items: center;
+    border-radius: 31%; 
+    background-size: cover;
+    background-position: center center;
+    margin: 60px;
+}
+
+footer p {
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+    
